@@ -1,0 +1,45 @@
+[{
+  "_id": 1,
+  "equipo_ganador": "Real Madrid",
+  "puntajes": {
+    "Real Madrid": 2,
+    "Barcelona": 1
+  },
+  "detalles": "Partido emocionante con gol en el tiempo de descuento"
+},
+{
+  "_id": 2,
+  "equipo_ganador": "Manchester City",
+  "puntajes": {
+    "Manchester City": 3,
+    "Chelsea": 2
+  },
+  "detalles": "Remontada en la segunda mitad"
+},
+{
+  "_id": 3,
+  "equipo_ganador": "Bayern Munich",
+  "puntajes": {
+    "Bayern Munich": 4,
+    "Borussia Dortmund": 0
+  },
+  "detalles": "Dominio absoluto del Bayern Munich"
+},
+{
+  "_id": 4,
+  "equipo_ganador": "Olympique de Marseille",
+  "puntajes": {
+    "Paris Saint-Germain": 2,
+    "Olympique de Marseille": 2
+  },
+  "detalles": "Empate en un partido muy reñido"
+},
+{
+  "_id": 5,
+  "equipo_ganador": "Juventus",
+  "puntajes": {
+    "Juventus": 1,
+    "Inter de Milán": 0
+  },
+  "detalles": "Victoria ajustada con gol tempranero"
+}]

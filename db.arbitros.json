@@ -1,0 +1,45 @@
+[{
+  "_id": 1,
+  "nombre": "Michael Oliver",
+  "experiencia": "12 años",
+  "calificaciones": [
+    "Árbitro de la Premier League",
+    "Partidos internacionales"
+  ]
+},
+{
+  "_id": 2,
+  "nombre": "Felix Brych",
+  "experiencia": "10 años",
+  "calificaciones": [
+    "Árbitro de la Bundesliga",
+    "Final de la Liga de Campeones"
+  ]
+},
+{
+  "_id": 3,
+  "nombre": "Bjorn Kuipers",
+  "experiencia": "11 años",
+  "calificaciones": [
+    "Árbitro de la Eredivisie",
+    "Copa del Mundo 2014"
+  ]
+},
+{
+  "_id": 4,
+  "nombre": "Danny Makkelie",
+  "experiencia": "9 años",
+  "calificaciones": [
+    "Árbitro de la Eredivisie",
+    "Final de la Liga Europa"
+  ]
+},
+{
+  "_id": 5,
+  "nombre": "Anthony Taylor",
+  "experiencia": "10 años",
+  "calificaciones": [
+    "Árbitro de la Premier League",
+    "Final de la FA Cup"
+  ]
+}]

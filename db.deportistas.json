@@ -1,0 +1,55 @@
+[{
+  "_id": 1,
+  "nombre": "Lionel Messi",
+  "nacionalidad": "Argentina",
+  "edad": 34,
+  "estadisticas": {
+    "partidos_jugados": 800,
+    "goles_anotados": 700,
+    "asistencias": 300
+  }
+},
+{
+  "_id": 2,
+  "nombre": "Cristiano Ronaldo",
+  "nacionalidad": "Portugal",
+  "edad": 36,
+  "estadisticas": {
+    "partidos_jugados": 850,
+    "goles_anotados": 750,
+    "asistencias": 200
+  }
+},
+{
+  "_id": 3,
+  "nombre": "Neymar Jr",
+  "nacionalidad": "Brasil",
+  "edad": 29,
+  "estadisticas": {
+    "partidos_jugados": 600,
+    "goles_anotados": 400,
+    "asistencias": 150
+  }
+},
+{
+  "_id": 4,
+  "nombre": "Sergio Ramos",
+  "nacionalidad": "España",
+  "edad": 35,
+  "estadisticas": {
+    "partidos_jugados": 700,
+    "goles_anotados": 70,
+    "asistencias": 20
+  }
+},
+{
+  "_id": 5,
+  "nombre": "Kevin De Bruyne",
+  "nacionalidad": "Bélgica",
+  "edad": 30,
+  "estadisticas": {
+    "partidos_jugados": 500,
+    "goles_anotados": 120,
+    "asistencias": 250
+  }
+}]

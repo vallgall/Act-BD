@@ -1,0 +1,45 @@
+[{
+  "_id": 1,
+  "nombre": "Pep Guardiola",
+  "especialidad": "Táctica ofensiva",
+  "logros": [
+    "Ganador de la Liga de Campeones",
+    "8 títulos de liga"
+  ]
+},
+{
+  "_id": 2,
+  "nombre": "Jurgen Klopp",
+  "especialidad": "Gestión de equipo",
+  "logros": [
+    "Campeón de la Premier League",
+    "Campeón de la Liga de Campeones"
+  ]
+},
+{
+  "_id": 3,
+  "nombre": "Diego Simeone",
+  "especialidad": "Táctica defensiva",
+  "logros": [
+    "Ganador de La Liga",
+    "Campeón de la Europa League"
+  ]
+},
+{
+  "_id": 4,
+  "nombre": "Zinedine Zidane",
+  "especialidad": "Motivación de jugadores",
+  "logros": [
+    "Ganador de La Liga",
+    "3 títulos de la Liga de Campeones"
+  ]
+},
+{
+  "_id": 5,
+  "nombre": "Carlo Ancelotti",
+  "especialidad": "Experiencia táctica",
+  "logros": [
+    "Ganador de la Liga de Campeones",
+    "3 títulos de liga"
+  ]
+}]

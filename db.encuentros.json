@@ -1,0 +1,50 @@
+[{
+  "_id": 1,
+  "equipos": [
+    "Real Madrid",
+    "Barcelona"
+  ],
+  "fecha": "2023-11-25",
+  "ubicacion": "Estadio Santiago Bernabéu",
+  "resultado": "2-1"
+},
+{
+  "_id": 2,
+  "equipos": [
+    "Manchester City",
+    "Chelsea"
+  ],
+  "fecha": "2023-11-26",
+  "ubicacion": "Estadio Etihad",
+  "resultado": "3-2"
+},
+{
+  "_id": 3,
+  "equipos": [
+    "Bayern Munich",
+    "Borussia Dortmund"
+  ],
+  "fecha": "2023-11-27",
+  "ubicacion": "Allianz Arena",
+  "resultado": "4-0"
+},
+{
+  "_id": 4,
+  "equipos": [
+    "Paris Saint-Germain",
+    "Olympique de Marseille"
+  ],
+  "fecha": "2023-11-28",
+  "ubicacion": "Parc des Princes",
+  "resultado": "2-2"
+},
+{
+  "_id": 5,
+  "equipos": [
+    "Juventus",
+    "Inter de Milán"
+  ],
+  "fecha": "2023-11-29",
+  "ubicacion": "Allianz Stadium",
+  "resultado": "1-0"
+}]
