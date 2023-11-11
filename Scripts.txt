@@ -1,0 +1,261 @@
+
+use db;
+
+// Insertar documentos en la colección 'arbitros'
+db.arbitros.insertMany([
+  {
+    "_id": 1,
+    "nombre": "Michael Oliver",
+    "experiencia": "12 años",
+    "calificaciones": [
+      "Árbitro de la Premier League",
+      "Partidos internacionales"
+    ]
+  },
+  {
+    "_id": 2,
+    "nombre": "Felix Brych",
+    "experiencia": "10 años",
+    "calificaciones": [
+      "Árbitro de la Bundesliga",
+      "Final de la Liga de Campeones"
+    ]
+  },
+  {
+    "_id": 3,
+    "nombre": "Bjorn Kuipers",
+    "experiencia": "11 años",
+    "calificaciones": [
+      "Árbitro de la Eredivisie",
+      "Copa del Mundo 2014"
+    ]
+  },
+  {
+    "_id": 4,
+    "nombre": "Danny Makkelie",
+    "experiencia": "9 años",
+    "calificaciones": [
+      "Árbitro de la Eredivisie",
+      "Final de la Liga Europa"
+    ]
+  },
+  {
+    "_id": 5,
+    "nombre": "Anthony Taylor",
+    "experiencia": "10 años",
+    "calificaciones": [
+      "Árbitro de la Premier League",
+      "Final de la FA Cup"
+    ]
+  }
+]);
+
+db.deportistas.insertMany([
+  {
+    "_id": 1,
+    "nombre": "Lionel Messi",
+    "nacionalidad": "Argentina",
+    "edad": 34,
+    "estadisticas": {
+      "partidos_jugados": 800,
+      "goles_anotados": 700,
+      "asistencias": 300
+    }
+  },
+  {
+    "_id": 2,
+    "nombre": "Cristiano Ronaldo",
+    "nacionalidad": "Portugal",
+    "edad": 36,
+    "estadisticas": {
+      "partidos_jugados": 850,
+      "goles_anotados": 750,
+      "asistencias": 200
+    }
+  },
+  {
+    "_id": 3,
+    "nombre": "Neymar Jr",
+    "nacionalidad": "Brasil",
+    "edad": 29,
+    "estadisticas": {
+      "partidos_jugados": 600,
+      "goles_anotados": 400,
+      "asistencias": 150
+    }
+  },
+  {
+    "_id": 4,
+    "nombre": "Sergio Ramos",
+    "nacionalidad": "España",
+    "edad": 35,
+    "estadisticas": {
+      "partidos_jugados": 700,
+      "goles_anotados": 70,
+      "asistencias": 20
+    }
+  },
+  {
+    "_id": 5,
+    "nombre": "Kevin De Bruyne",
+    "nacionalidad": "Bélgica",
+    "edad": 30,
+    "estadisticas": {
+      "partidos_jugados": 500,
+      "goles_anotados": 120,
+      "asistencias": 250
+    }
+  }
+]);
+
+
+db.encuentros.insertMany([
+  {
+    "_id": 1,
+    "equipos": [
+      "Real Madrid",
+      "Barcelona"
+    ],
+    "fecha": "2023-11-25",
+    "ubicacion": "Estadio Santiago Bernabéu",
+    "resultado": "2-1"
+  },
+  {
+    "_id": 2,
+    "equipos": [
+      "Manchester City",
+      "Chelsea"
+    ],
+    "fecha": "2023-11-26",
+    "ubicacion": "Estadio Etihad",
+    "resultado": "3-2"
+  },
+  {
+    "_id": 3,
+    "equipos": [
+      "Bayern Munich",
+      "Borussia Dortmund"
+    ],
+    "fecha": "2023-11-27",
+    "ubicacion": "Allianz Arena",
+    "resultado": "4-0"
+  },
+  {
+    "_id": 4,
+    "equipos": [
+      "Paris Saint-Germain",
+      "Olympique de Marseille"
+    ],
+    "fecha": "2023-11-28",
+    "ubicacion": "Parc des Princes",
+    "resultado": "2-2"
+  },
+  {
+    "_id": 5,
+    "equipos": [
+      "Juventus",
+      "Inter de Milán"
+    ],
+    "fecha": "2023-11-29",
+    "ubicacion": "Allianz Stadium",
+    "resultado": "1-0"
+  }
+]);
+
+
+db.entrenadores.insertMany([
+  {
+    "_id": 1,
+    "nombre": "Pep Guardiola",
+    "especialidad": "Táctica ofensiva",
+    "logros": [
+      "Ganador de la Liga de Campeones",
+      "8 títulos de liga"
+    ]
+  },
+  {
+    "_id": 2,
+    "nombre": "Jurgen Klopp",
+    "especialidad": "Gestión de equipo",
+    "logros": [
+      "Campeón de la Premier League",
+      "Campeón de la Liga de Campeones"
+    ]
+  },
+  {
+    "_id": 3,
+    "nombre": "Diego Simeone",
+    "especialidad": "Táctica defensiva",
+    "logros": [
+      "Ganador de La Liga",
+      "Campeón de la Europa League"
+    ]
+  },
+  {
+    "_id": 4,
+    "nombre": "Zinedine Zidane",
+    "especialidad": "Motivación de jugadores",
+    "logros": [
+      "Ganador de La Liga",
+      "3 títulos de la Liga de Campeones"
+    ]
+  },
+  {
+    "_id": 5,
+    "nombre": "Carlo Ancelotti",
+    "especialidad": "Experiencia táctica",
+    "logros": [
+      "Ganador de la Liga de Campeones",
+      "3 títulos de liga"
+    ]
+  }
+]);
+
+
+db.resultados.insertMany([
+  {
+    "_id": 1,
+    "equipo_ganador": "Real Madrid",
+    "puntajes": {
+      "Real Madrid": 2,
+      "Barcelona": 1
+    },
+    "detalles": "Partido emocionante con gol en el tiempo de descuento"
+  },
+  {
+    "_id": 2,
+    "equipo_ganador": "Manchester City",
+    "puntajes": {
+      "Manchester City": 3,
+      "Chelsea": 2
+    },
+    "detalles": "Remontada en la segunda mitad"
+  },
+  {
+    "_id": 3,
+    "equipo_ganador": "Bayern Munich",
+    "puntajes": {
+      "Bayern Munich": 4,
+      "Borussia Dortmund": 0
+    },
+    "detalles": "Dominio absoluto del Bayern Munich"
+  },
+  {
+    "_id": 4,
+    "equipo_ganador": "Olympique de Marseille",
+    "puntajes": {
+      "Paris Saint-Germain": 2,
+      "Olympique de Marseille": 2
+    },
+    "detalles": "Empate en un partido muy reñido"
+  },
+  {
+    "_id": 5,
+    "equipo_ganador": "Juventus",
+    "puntajes": {
+      "Juventus": 1,
+      "Inter de Milán": 0
+    },
+    "detalles": "Victoria ajustada con gol tempranero"
+  }
+]);
