@@ -13,13 +13,13 @@ Ejemplo:
 ```json
 [
   {
-    "_id": 1,
-    "equipo_ganador": "Real Madrid",
-    "puntajes": {
-      "Real Madrid": 2,
-      "Barcelona": 1
-    },
-    "detalles": "Partido emocionante con gol en el tiempo de descuento"
+  "_id": 3,
+  "equipo_ganador": "Equipo 1",
+  "puntajes": {
+    "Equipo 1": 4,
+    "Equipo 3": 0
   },
+  "detalles": "Dominio absoluto del Equipo 3"
+},
   // ... otros documentos
 ]
