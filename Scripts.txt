@@ -50,118 +50,478 @@ db.arbitros.insertMany([
   }
 ]);
 
-db.deportistas.insertMany([
-  {
-    "_id": 1,
-    "nombre": "Lionel Messi",
-    "nacionalidad": "Argentina",
-    "edad": 34,
-    "estadisticas": {
-      "partidos_jugados": 800,
-      "goles_anotados": 700,
-      "asistencias": 300
-    }
-  },
-  {
-    "_id": 2,
-    "nombre": "Cristiano Ronaldo",
-    "nacionalidad": "Portugal",
-    "edad": 36,
-    "estadisticas": {
-      "partidos_jugados": 850,
-      "goles_anotados": 750,
-      "asistencias": 200
-    }
-  },
-  {
-    "_id": 3,
-    "nombre": "Neymar Jr",
-    "nacionalidad": "Brasil",
-    "edad": 29,
-    "estadisticas": {
-      "partidos_jugados": 600,
-      "goles_anotados": 400,
-      "asistencias": 150
-    }
-  },
-  {
-    "_id": 4,
-    "nombre": "Sergio Ramos",
-    "nacionalidad": "España",
-    "edad": 35,
-    "estadisticas": {
-      "partidos_jugados": 700,
-      "goles_anotados": 70,
-      "asistencias": 20
-    }
-  },
-  {
-    "_id": 5,
-    "nombre": "Kevin De Bruyne",
-    "nacionalidad": "Bélgica",
-    "edad": 30,
-    "estadisticas": {
-      "partidos_jugados": 500,
-      "goles_anotados": 120,
-      "asistencias": 250
-    }
+db.deportistas.insertMany([{
+  "_id": 1,
+  "nombre": "Carlos García",
+  "nacionalidad": "Colombia",
+  "edad": 28,
+  "estadisticas": {
+    "partidos_jugados": 120,
+    "goles_anotados": 50,
+    "asistencias": 30
   }
-]);
-
-
-db.encuentros.insertMany([
-  {
-    "_id": 1,
-    "equipos": [
-      "Real Madrid",
-      "Barcelona"
-    ],
-    "fecha": "2023-11-25",
-    "ubicacion": "Estadio Santiago Bernabéu",
-    "resultado": "2-1"
-  },
-  {
-    "_id": 2,
-    "equipos": [
-      "Manchester City",
-      "Chelsea"
-    ],
-    "fecha": "2023-11-26",
-    "ubicacion": "Estadio Etihad",
-    "resultado": "3-2"
-  },
-  {
-    "_id": 3,
-    "equipos": [
-      "Bayern Munich",
-      "Borussia Dortmund"
-    ],
-    "fecha": "2023-11-27",
-    "ubicacion": "Allianz Arena",
-    "resultado": "4-0"
-  },
-  {
-    "_id": 4,
-    "equipos": [
-      "Paris Saint-Germain",
-      "Olympique de Marseille"
-    ],
-    "fecha": "2023-11-28",
-    "ubicacion": "Parc des Princes",
-    "resultado": "2-2"
-  },
-  {
-    "_id": 5,
-    "equipos": [
-      "Juventus",
-      "Inter de Milán"
-    ],
-    "fecha": "2023-11-29",
-    "ubicacion": "Allianz Stadium",
-    "resultado": "1-0"
+},
+{
+  "_id": 2,
+  "nombre": "Andrés Martínez",
+  "nacionalidad": "Colombia",
+  "edad": 25,
+  "estadisticas": {
+    "partidos_jugados": 90,
+    "goles_anotados": 40,
+    "asistencias": 20
   }
-]);
+},
+{
+  "_id": 3,
+  "nombre": "Javier Rojas",
+  "nacionalidad": "Colombia",
+  "edad": 26,
+  "estadisticas": {
+    "partidos_jugados": 110,
+    "goles_anotados": 60,
+    "asistencias": 25
+  }
+},
+{
+  "_id": 4,
+  "nombre": "Diego Torres",
+  "nacionalidad": "Colombia",
+  "edad": 24,
+  "estadisticas": {
+    "partidos_jugados": 80,
+    "goles_anotados": 30,
+    "asistencias": 15
+  }
+},
+{
+  "_id": 5,
+  "nombre": "Sebastián Gómez",
+  "nacionalidad": "Colombia",
+  "edad": 27,
+  "estadisticas": {
+    "partidos_jugados": 100,
+    "goles_anotados": 45,
+    "asistencias": 22
+  }
+},
+{
+  "_id": 6,
+  "nombre": "Miguel Herrera",
+  "nacionalidad": "Colombia",
+  "edad": 29,
+  "estadisticas": {
+    "partidos_jugados": 110,
+    "goles_anotados": 55,
+    "asistencias": 28
+  }
+},
+{
+  "_id": 7,
+  "nombre": "Juan Castro",
+  "nacionalidad": "Colombia",
+  "edad": 26,
+  "estadisticas": {
+    "partidos_jugados": 95,
+    "goles_anotados": 48,
+    "asistencias": 23
+  }
+},
+{
+  "_id": 8,
+  "nombre": "Luis Ramírez",
+  "nacionalidad": "Colombia",
+  "edad": 23,
+  "estadisticas": {
+    "partidos_jugados": 85,
+    "goles_anotados": 38,
+    "asistencias": 18
+  }
+},
+{
+  "_id": 9,
+  "nombre": "Hernando González",
+  "nacionalidad": "Colombia",
+  "edad": 28,
+  "estadisticas": {
+    "partidos_jugados": 105,
+    "goles_anotados": 52,
+    "asistencias": 27
+  }
+},
+{
+  "_id": 10,
+  "nombre": "Jorge Luis Montoya",
+  "nacionalidad": "Colombia",
+  "edad": 28,
+  "estadisticas": {
+    "partidos_jugados": 130,
+    "goles_anotados": 60,
+    "asistencias": 35
+  }
+},
+{
+  "_id": 11,
+  "nombre": "Carlos Andrés Jiménez",
+  "nacionalidad": "Colombia",
+  "edad": 25,
+  "estadisticas": {
+    "partidos_jugados": 95,
+    "goles_anotados": 42,
+    "asistencias": 20
+  }
+},
+{
+  "_id": 12,
+  "nombre": "Miguel Ángel Soto",
+  "nacionalidad": "Colombia",
+  "edad": 26,
+  "estadisticas": {
+    "partidos_jugados": 110,
+    "goles_anotados": 55,
+    "asistencias": 30
+  }
+},
+{
+  "_id": 13,
+  "nombre": "Alejandro Vargas",
+  "nacionalidad": "Colombia",
+  "edad": 23,
+  "estadisticas": {
+    "partidos_jugados": 80,
+    "goles_anotados": 25,
+    "asistencias": 18
+  }
+},
+{
+  "_id": 14,
+  "nombre": "Juan Camilo Herrera",
+  "nacionalidad": "Colombia",
+  "edad": 29,
+  "estadisticas": {
+    "partidos_jugados": 150,
+    "goles_anotados": 70,
+    "asistencias": 40
+  }
+},
+{
+  "_id": 15,
+  "nombre": "Santiago Rodríguez",
+  "nacionalidad": "Colombia",
+  "edad": 24,
+  "estadisticas": {
+    "partidos_jugados": 85,
+    "goles_anotados": 38,
+    "asistencias": 19
+  }
+},
+{
+  "_id": 16,
+  "nombre": "Gabriel Medina",
+  "nacionalidad": "Colombia",
+  "edad": 27,
+  "estadisticas": {
+    "partidos_jugados": 105,
+    "goles_anotados": 50,
+    "asistencias": 25
+  }
+},
+{
+  "_id": 17,
+  "nombre": "Hernán Gómez",
+  "nacionalidad": "Colombia",
+  "edad": 26,
+  "estadisticas": {
+    "partidos_jugados": 95,
+    "goles_anotados": 42,
+    "asistencias": 23
+  }
+},
+{
+  "_id": 18,
+  "nombre": "Mateo Ríos",
+  "nacionalidad": "Colombia",
+  "edad": 23,
+  "estadisticas": {
+    "partidos_jugados": 80,
+    "goles_anotados": 30,
+    "asistencias": 15
+  }
+},
+{
+  "_id": 19,
+  "nombre": "David López",
+  "nacionalidad": "Colombia",
+  "edad": 28,
+  "estadisticas": {
+    "partidos_jugados": 120,
+    "goles_anotados": 55,
+    "asistencias": 28
+  }
+},
+{
+  "_id": 20,
+  "nombre": "Camilo Estrada",
+  "nacionalidad": "Colombia",
+  "edad": 25,
+  "estadisticas": {
+    "partidos_jugados": 90,
+    "goles_anotados": 40,
+    "asistencias": 22
+  }
+},
+{
+  "_id": 21,
+  "nombre": "Sebastián Moreno",
+  "nacionalidad": "Colombia",
+  "edad": 27,
+  "estadisticas": {
+    "partidos_jugados": 105,
+    "goles_anotados": 48,
+    "asistencias": 26
+  }
+},
+{
+  "_id": 22,
+  "nombre": "Juan Pablo García",
+  "nacionalidad": "Colombia",
+  "edad": 26,
+  "estadisticas": {
+    "partidos_jugados": 100,
+    "goles_anotados": 45,
+    "asistencias": 21
+  }
+},
+{
+  "_id": 23,
+  "nombre": "Mauricio Ramírez",
+  "nacionalidad": "Colombia",
+  "edad": 24,
+  "estadisticas": {
+    "partidos_jugados": 85,
+    "goles_anotados": 35,
+    "asistencias": 18
+  }
+},
+{
+  "_id": 24,
+  "nombre": "Simón Castaño",
+  "nacionalidad": "Colombia",
+  "edad": 28,
+  "estadisticas": {
+    "partidos_jugados": 110,
+    "goles_anotados": 52,
+    "asistencias": 30
+  }
+},
+{
+  "_id": 25,
+  "nombre": "Felipe Gutiérrez",
+  "nacionalidad": "Colombia",
+  "edad": 26,
+  "estadisticas": {
+    "partidos_jugados": 95,
+    "goles_anotados": 43,
+    "asistencias": 20
+  }
+},
+{
+  "_id": 26,
+  "nombre": "Eduardo Cardona",
+  "nacionalidad": "Colombia",
+  "edad": 24,
+  "estadisticas": {
+    "partidos_jugados": 80,
+    "goles_anotados": 38,
+    "asistencias": 19
+  }
+},
+{
+  "_id": 27,
+  "nombre": "Juan Esteban Ríos",
+  "nacionalidad": "Colombia",
+  "edad": 27,
+  "estadisticas": {
+    "partidos_jugados": 105,
+    "goles_anotados": 50,
+    "asistencias": 25
+  }
+},
+{
+  "_id": 28,
+  "nombre": "Andrés Torres",
+  "nacionalidad": "Colombia",
+  "edad": 23,
+  "estadisticas": {
+    "partidos_jugados": 85,
+    "goles_anotados": 42,
+    "asistencias": 18
+  }
+},
+{
+  "_id": 29,
+  "nombre": "Miguel Herrera",
+  "nacionalidad": "Colombia",
+  "edad": 28,
+  "estadisticas": {
+    "partidos_jugados": 110,
+    "goles_anotados": 55,
+    "asistencias": 28
+  }
+},
+{
+  "_id": 30,
+  "nombre": "Luis Felipe Martínez",
+  "nacionalidad": "Colombia",
+  "edad": 25,
+  "estadisticas": {
+    "partidos_jugados": 92,
+    "goles_anotados": 41,
+    "asistencias": 23
+  }
+},
+{
+  "_id": 31,
+  "nombre": "Javier Giraldo",
+  "nacionalidad": "Colombia",
+  "edad": 28,
+  "estadisticas": {
+    "partidos_jugados": 110,
+    "goles_anotados": 52,
+    "asistencias": 26
+  }
+},
+{
+  "_id": 32,
+  "nombre": "Sergio Vélez",
+  "nacionalidad": "Colombia",
+  "edad": 26,
+  "estadisticas": {
+    "partidos_jugados": 100,
+    "goles_anotados": 48,
+    "asistencias": 22
+  }
+},
+{
+  "_id": 33,
+  "nombre": "Andrés Valencia",
+  "nacionalidad": "Colombia",
+  "edad": 24,
+  "estadisticas": {
+    "partidos_jugados": 88,
+    "goles_anotados": 39,
+    "asistencias": 20
+  }
+},
+{
+  "_id": 34,
+  "nombre": "David Gómez",
+  "nacionalidad": "Colombia",
+  "edad": 27,
+  "estadisticas": {
+    "partidos_jugados": 105,
+    "goles_anotados": 49,
+    "asistencias": 24
+  }
+},
+{
+  "_id": 35,
+  "nombre": "Mateo Sánchez",
+  "nacionalidad": "Colombia",
+  "edad": 23,
+  "estadisticas": {
+    "partidos_jugados": 82,
+    "goles_anotados": 37,
+    "asistencias": 18
+  }
+},
+{
+  "_id": 36,
+  "nombre": "Julián Torres",
+  "nacionalidad": "Colombia",
+  "edad": 26,
+  "estadisticas": {
+    "partidos_jugados": 95,
+    "goles_anotados": 44,
+    "asistencias": 21
+  }
+},
+{
+  "_id": 37,
+  "nombre": "Andrés Soto",
+  "nacionalidad": "Colombia",
+  "edad": 25,
+  "estadisticas": {
+    "partidos_jugados": 90,
+    "goles_anotados": 43,
+    "asistencias": 20
+  }
+},
+{
+  "_id": 38,
+  "nombre": "Diego Ríos",
+  "nacionalidad": "Colombia",
+  "edad": 27,
+  "estadisticas": {
+    "partidos_jugados": 100,
+    "goles_anotados": 47,
+    "asistencias": 23
+  }
+},
+{
+  "_id": 39,
+  "nombre": "Santiago Gómez",
+  "nacionalidad": "Colombia",
+  "edad": 24,
+  "estadisticas": {
+    "partidos_jugados": 85,
+    "goles_anotados": 40,
+    "asistencias": 19
+  }
+},
+{
+  "_id": 40,
+  "nombre": "Camilo Giraldo",
+  "nacionalidad": "Colombia",
+  "edad": 27,
+  "estadisticas": {
+    "partidos_jugados": 102,
+    "goles_anotados": 46,
+    "asistencias": 24
+  }
+}]);
 
+
+db.encuentros.insertMany([{
+  "_id": 1,
+  "equipos": [
+    "Equipo 1",
+    "Equipo 3"
+  ],
+  "fecha": "2023-11-25",
+  "ubicacion": "Estadio Murillo toro",
+  "resultado": "4-0"
+},
+{
+  "_id": 2,
+  "equipos": [
+    "Equipo 2",
+    "Equipo 4"
+  ],
+  "fecha": "2023-11-26",
+  "ubicacion": "Estadio Murillo toro",
+  "resultado": "3-2"
+},
+{
+  "_id": 3,
+  "equipos": [
+    "Equipo 1",
+    "Equipo 2"
+  ],
+  "fecha": "2023-11-27",
+  "ubicacion": "Estadio Murillo toro",
+  "resultado": "2-2"
+}]);
 
 db.entrenadores.insertMany([
   {
@@ -212,50 +572,30 @@ db.entrenadores.insertMany([
 ]);
 
 
-db.resultados.insertMany([
-  {
-    "_id": 1,
-    "equipo_ganador": "Real Madrid",
-    "puntajes": {
-      "Real Madrid": 2,
-      "Barcelona": 1
-    },
-    "detalles": "Partido emocionante con gol en el tiempo de descuento"
+db.resultados.insertMany([{
+  "_id": 2,
+  "equipo_ganador": "Equipo 2",
+  "puntajes": {
+    "Equipo 2": 3,
+    "Equipo 4": 2
   },
-  {
-    "_id": 2,
-    "equipo_ganador": "Manchester City",
-    "puntajes": {
-      "Manchester City": 3,
-      "Chelsea": 2
-    },
-    "detalles": "Remontada en la segunda mitad"
+  "detalles": "Remontada en la segunda mitad, perdio equipo 4"
+},
+{
+  "_id": 3,
+  "equipo_ganador": "Equipo 1",
+  "puntajes": {
+    "Equipo 1": 4,
+    "Equipo 3": 0
   },
-  {
-    "_id": 3,
-    "equipo_ganador": "Bayern Munich",
-    "puntajes": {
-      "Bayern Munich": 4,
-      "Borussia Dortmund": 0
-    },
-    "detalles": "Dominio absoluto del Bayern Munich"
+  "detalles": "Dominio absoluto del Equipo 3"
+},
+{
+  "_id": 4,
+  "equipo_ganador": "Equipo 1",
+  "puntajes": {
+    "Equipo 2": 2,
+    "Equipo 1": 2
   },
-  {
-    "_id": 4,
-    "equipo_ganador": "Olympique de Marseille",
-    "puntajes": {
-      "Paris Saint-Germain": 2,
-      "Olympique de Marseille": 2
-    },
-    "detalles": "Empate en un partido muy reñido"
-  },
-  {
-    "_id": 5,
-    "equipo_ganador": "Juventus",
-    "puntajes": {
-      "Juventus": 1,
-      "Inter de Milán": 0
-    },
-    "detalles": "Victoria ajustada con gol tempranero"
-  }
-]);
+  "detalles": "Empate en un partido muy reñido con el equipo 2"
+}]);
