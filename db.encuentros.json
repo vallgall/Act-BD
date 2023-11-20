@@ -1,50 +1,30 @@
 [{
   "_id": 1,
   "equipos": [
-    "Real Madrid",
-    "Barcelona"
+    "Equipo 1",
+    "Equipo 3"
   ],
   "fecha": "2023-11-25",
-  "ubicacion": "Estadio Santiago Bernabéu",
-  "resultado": "2-1"
+  "ubicacion": "Estadio Murillo toro",
+  "resultado": "4-0"
 },
 {
   "_id": 2,
   "equipos": [
-    "Manchester City",
-    "Chelsea"
+    "Equipo 2",
+    "Equipo 4"
   ],
   "fecha": "2023-11-26",
-  "ubicacion": "Estadio Etihad",
+  "ubicacion": "Estadio Murillo toro",
   "resultado": "3-2"
 },
 {
   "_id": 3,
   "equipos": [
-    "Bayern Munich",
-    "Borussia Dortmund"
+    "Equipo 1",
+    "Equipo 2"
   ],
   "fecha": "2023-11-27",
-  "ubicacion": "Allianz Arena",
-  "resultado": "4-0"
-},
-{
-  "_id": 4,
-  "equipos": [
-    "Paris Saint-Germain",
-    "Olympique de Marseille"
-  ],
-  "fecha": "2023-11-28",
-  "ubicacion": "Parc des Princes",
+  "ubicacion": "Estadio Murillo toro",
   "resultado": "2-2"
-},
-{
-  "_id": 5,
-  "equipos": [
-    "Juventus",
-    "Inter de Milán"
-  ],
-  "fecha": "2023-11-29",
-  "ubicacion": "Allianz Stadium",
-  "resultado": "1-0"
 }]
